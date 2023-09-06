@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  "var =BREATH^LOVE" | awk '{PRINT $3}'
+echo $((BREATH**LOVE))
