@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name \*.js -type f -delete
+echo -e "$(bc -| <<< "scale=2; &BREATH ^ $LOVE")\n"
