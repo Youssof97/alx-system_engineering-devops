@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(bc -| <<< "scale=2; &BREATH ^ $LOVE")\n"
+echo  "var =BREATH^LOVE" | awk '{PRINT $3}'
